@@ -20,7 +20,7 @@ try {
 
     console.log("\n== Your Bot String Session ==");
     console.log(client.session.save());
-    console.log("\nKeep this string safe. You can use it to log in your bot later.");
+    console.log("\nKeep this string safe.");
     process.exit(0);
 } catch (error) {
     console.error("\nError:", error.message || error);
