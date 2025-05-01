@@ -1,6 +1,6 @@
-import { TelegramClient } from "telegram";
-import { StringSession } from "telegram/sessions/index.js";
-import input from "input"; // npm install input
+const { TelegramClient } = require("telegram");
+const { StringSession } = require("telegram/sessions/index.js");
+const input = require("input"); // npm install input
 
 const apiId = parseInt(await input.text("Enter your API ID: "));
 const apiHash = await input.text("Enter your API Hash: ");
